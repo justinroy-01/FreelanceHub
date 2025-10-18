@@ -33,7 +33,6 @@ public class FrameManager {
             Color primaryBlue = new Color(0, 120, 215);
             Color primaryBlueHover = new Color(0, 100, 190);
             Color darkText = new Color(40, 40, 40);
-            Color lightText = new Color(90, 90, 90);
             Color borderColor = new Color(220, 225, 230);
 
 
