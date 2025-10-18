@@ -93,11 +93,11 @@ public class FrameManager {
             text2.setContentType("text/html");
             text2.setText("<html><div style='text-align:center;font-family:Sans-serif;font-size:12px;color:rgb(90,90,90)'>"
                     + "<strong style='font-size:16px;color:rgb(50,50,50)'>Collaborators(GitHub)</strong><br><br>"
-                    + "justin roy(justinroy-01)<br><br>"
-                    + "Sharath H<br><br>"
-                    + "Islam S Mytheen<br><br>"
-                    + "Kashinath<br><br>"
-                    + "Kailasnath<br><br>"
+                    + "(justinroy-01)<br><br>"
+                    + "Sharx05<br><br>"
+                    + "IslamSMytheen<br><br>"
+                    + "kashinathcep-cmd<br><br>"
+                    + "kailas395<br><br>"
                     + "</div></html>");
             text2.setEditable(false);
             text2.setBackground(panelColor);
