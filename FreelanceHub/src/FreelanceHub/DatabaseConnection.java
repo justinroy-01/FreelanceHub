@@ -7,7 +7,7 @@ public class DatabaseConnection {
     private static final String DB_NAME = "freelancehub";
     private static final String DB_URL = SERVER_URL + DB_NAME;
     private static final String USER = "root";
-    private static final String PASS = "*****";
+    private static final String PASS = "***";
 
     private static Connection connection = null;
 
