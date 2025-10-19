@@ -234,10 +234,15 @@ public class Auth {
         }
 	}
 	void register()
-	{
+	{	String password = null;
 		String user_ID = JOptionPane.showInputDialog("Create your USER ID:");
         if (user_ID != null) {
-            String password = JOptionPane.showInputDialog("Create Password:");
+        	JPasswordField passwordField = new JPasswordField();
+		    int option = JOptionPane.showConfirmDialog(null, passwordField, "Create Password", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+		    if (option == JOptionPane.OK_OPTION) {
+		        String password2 = new String(passwordField.getPassword());
+		        password=password2;
+		    }
             if (password != null) {
                 Connection conn = DatabaseConnection.getConnection();
                 if (conn != null) {
