@@ -69,8 +69,6 @@ if __name__ == "__main__":
     print("Project tree saved to PROJECT_TREE.md")
 ```
 
-This script will generate an ASCII tree and save it as `PROJECT_TREE.md`, which you can paste directly into your README.
-
 
 ---
 
