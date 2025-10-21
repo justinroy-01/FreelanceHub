@@ -70,7 +70,7 @@ FreelanceHub/
 ---
 
 ### Author
-**Developed by:** [Your Name]  
+**Developed by:** [Javanwala]  
 **Technology Stack:** Core Java, JDBC, MySQL, Swing  
 
 ---
