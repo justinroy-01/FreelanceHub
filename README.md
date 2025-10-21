@@ -16,7 +16,7 @@ Built using **Java Swing** and **MySQL**, it demonstrates how to connect front-e
 ---
 
 ## 🛠️ Technologies
-- **Language:** Java (JDK 21)  
+- **Language:** Java (TERUMIN 21)  
 - **Database:** MySQL  
 - **UI:** Java Swing  
 - **Connectivity:** JDBC (`com.mysql.cj.jdbc.Driver`)  
