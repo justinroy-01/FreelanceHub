@@ -26,12 +26,50 @@ Built using **Java Swing** and **MySQL**, it demonstrates how to connect front-e
 ---
 
 ## 📁 Project Structure
+```
 FreelanceHub/
-├── DatabaseConnection.java     # Handles DB connection and setup
-├── Auth.java                   # Manages login & registration
-├── FrameManager.java           # Controls GUI frames and navigation
-├── Create.java / Update.java / View.java / Delete.java  # CRUD operations
-├── AnimatedPanel.java          # Displays header animation
+├── DatabaseConnection.java       # Handles DB connection and setup
+├── Auth.java                     # Manages login & registration
+├── FrameManager.java             # Controls GUI frames and navigation
+├── Create.java                   # Adds clients, projects, and tasks
+├── Update.java                   # Modifies project/task details
+├── View.java                     # Displays data from database
+├── Delete.java                   # Removes entries safely
+├── AnimatedPanel.java            # Banner animation for UI
+└── README.md                     # Project documentation
+```
+```
+
+If you want to **automatically generate a tree structure** file, you can use this Python script and run it locally:
+
+```python
+import os
+
+def generate_tree_structure(root_dir, output_file, indent=""):
+    with open(output_file, 'w') as readme:
+        generate_tree(root_dir, readme, indent)
+
+def generate_tree(directory, readme, indent):
+    items = os.listdir(directory)
+    items.sort()
+    for i, item in enumerate(items):
+        item_path = os.path.join(directory, item)
+        is_last = i == len(items) - 1
+        if os.path.isdir(item_path):
+            readme.write(f"{indent}{'└── ' if is_last else '├── '}{item}/
+")
+            next_indent = indent + ("    " if is_last else "│   ")
+            generate_tree(item_path, readme, next_indent)
+        else:
+            readme.write(f"{indent}{'└── ' if is_last else '├── '}{item}
+")
+
+if __name__ == "__main__":
+    generate_tree_structure("./FreelanceHub", "PROJECT_TREE.md")
+    print("Project tree saved to PROJECT_TREE.md")
+```
+
+This script will generate an ASCII tree and save it as `PROJECT_TREE.md`, which you can paste directly into your README.
 
 
 ---
