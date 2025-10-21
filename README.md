@@ -38,39 +38,6 @@ FreelanceHub/
 ├── AnimatedPanel.java            # Banner animation for UI
 └── README.md                     # Project documentation
 ```
-```
-
-If you want to **automatically generate a tree structure** file, you can use this Python script and run it locally:
-
-```python
-import os
-
-def generate_tree_structure(root_dir, output_file, indent=""):
-    with open(output_file, 'w') as readme:
-        generate_tree(root_dir, readme, indent)
-
-def generate_tree(directory, readme, indent):
-    items = os.listdir(directory)
-    items.sort()
-    for i, item in enumerate(items):
-        item_path = os.path.join(directory, item)
-        is_last = i == len(items) - 1
-        if os.path.isdir(item_path):
-            readme.write(f"{indent}{'└── ' if is_last else '├── '}{item}/
-")
-            next_indent = indent + ("    " if is_last else "│   ")
-            generate_tree(item_path, readme, next_indent)
-        else:
-            readme.write(f"{indent}{'└── ' if is_last else '├── '}{item}
-")
-
-if __name__ == "__main__":
-    generate_tree_structure("./FreelanceHub", "PROJECT_TREE.md")
-    print("Project tree saved to PROJECT_TREE.md")
-```
-
-
-
 
 ---
 
