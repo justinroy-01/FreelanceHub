@@ -26,4 +26,9 @@ Built using **Java Swing** and **MySQL**, it demonstrates how to connect front-e
 ---
 
 ## 📁 Project Structure
-
+FreelanceHub/
+├── DatabaseConnection.java     # Handles DB connection and setup
+├── Auth.java                   # Manages login & registration
+├── FrameManager.java           # Controls GUI frames and navigation
+├── Create.java / Update.java / View.java / Delete.java  # CRUD operations
+├── AnimatedPanel.java          # Displays header animation
