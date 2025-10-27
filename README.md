@@ -19,7 +19,7 @@ It allows clients to post projects, set budgets, and hire freelancers based on s
 ---
 
 ## 🛠️ Technologies
-- **Language:** Java (TERUMIN 21)  
+-  (TERUMIN 21)  
 - **Database:** MySQL  
 - **UI:** Java Swing  
 - **Connectivity:** JDBC (`com.mysql.cj.jdbc.Driver`)  
