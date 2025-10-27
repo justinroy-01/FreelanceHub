@@ -12,7 +12,9 @@ It allows clients to post projects, set budgets, and hire freelancers based on s
 - Interactive and reusable GUI with Java Swing  
 - Database-backed workflow using MySQL  
 - MVC-inspired modular design  
-- Simple animated header for better UX  
+- Simple animated header for better UX
+- Chat or messaging feature for communication
+- Admin dashboard for managing users and projects
 
 ---
 
