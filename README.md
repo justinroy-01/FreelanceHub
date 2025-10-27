@@ -2,6 +2,7 @@
 
 FreelanceHub is a **Java-based desktop application** that helps freelancers manage clients, projects, and tasks in one place.  
 Built using **Java Swing** and **MySQL**, it demonstrates how to connect front-end GUI and relational databases using **JDBC**.
+It allows clients to post projects, set budgets, and hire freelancers based on skills and ratings. Freelancers can browse projects, submit proposals, and manage their ongoing work. The system includes modules for user authentication, project management, communication, and payment tracking.
 
 ---
 
