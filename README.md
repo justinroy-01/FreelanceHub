@@ -22,7 +22,7 @@ It allows clients to post projects, set budgets, and hire freelancers based on s
 -  **Language:** Java(TERUMIN 21)  
 - **Database:** MySQL  
 - **UI:** Java Swing  
-- **Connectivity:** JDBC (`com.mysql.cj.jdbc.Driver`)  
+- **:** JDBC (`com.mysql.cj.jdbc.Driver`)  
 - **IDE:** Eclipse / IntelliJ IDEA  
 - **Server:** Localhost  
 
