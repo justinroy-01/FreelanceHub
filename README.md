@@ -117,7 +117,7 @@ Developed by: [Javanwala]
 Tech Stack: Core Java · JDBC · MySQL · Swing
 Purpose: Mini Project – Freelance Management System
 
-> 💡 FreelanceHub is built as a learning-oriented project demonstrating the integration of front-end (Swing) and back-end (MySQL) using JDBC.
+> 💡 FreelanceHub is built as a learning-oriented project demonstrating the integration of front-end (Swing) and back-end (MySQL) using JDBC (java database connectivity).
 
 
 
